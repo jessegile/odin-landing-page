@@ -40,6 +40,7 @@ button {
   color: #F9FAF8;
   padding: 5px 20px;
   border-radius: 8px;
+  border: 1px #F9FAF8 solid;
 }
 
 .logo {
@@ -55,6 +56,7 @@ button {
   color: #F9FAF8;
   height: 400px;
   gap: 57px;
+  padding: 100px 0;
 }
 
 .hero-left {
@@ -77,4 +79,92 @@ button {
   background: #6D747D;
   width: 500px;
   height: 200px;
+}
+
+.random-info {
+  padding-bottom: 100px;
+}
+
+.random-info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  padding: 25px;
+}
+
+.random-info-box-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px #3882F6 solid;
+  border-radius: 8px;
+}
+
+.info {
+  max-width: 100px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background: #E5E7EB;
+}
+
+.quote-wrapper {
+  padding: 100px 200px;
+}
+
+.thor-quote {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.thor {
+  font-weight: 900;
+  text-align: right;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  color: #F9FAF8;
+}
+
+.action-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 100px;
+  background: #3882F6;
+  border-radius: 8px;
+  gap: 52px;
+}
+
+.action-left-header {
+  font-weight: 900;
+  font-size: 18px;  
+}
+
+.action-left-text {
+  color: #E5E7EB;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F2937;
+  color: #E5E7EB;
+  height: 72px;
+  padding: 40px;
 }
